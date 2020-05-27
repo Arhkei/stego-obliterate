@@ -19,7 +19,8 @@ Zsteg\
 Stegoveritas
 
 Requirements from: https://github.com/DominicBreuker/stego-toolkit/blob/master/README.md#tools
-  sudo ./install.sh
+
+    sudo ./install.sh
 ## Usage
 
 ```python
