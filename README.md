@@ -24,7 +24,7 @@ Requirements from: https://github.com/DominicBreuker/stego-toolkit/blob/master/R
 ## Usage
 
 ```python
-python obliterate.py <steg_file>
+python stego-obliterate.py <steg_file>
 ```
 
 ## Contributing
