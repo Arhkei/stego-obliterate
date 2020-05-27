@@ -19,6 +19,7 @@ def regEx(command):
 	out, err = p.communicate()
 	return out
 
+#Writes report for command in report file
 def report(command):
 	report_file.write('--------------------------------\n')
 	report_file.write(f'{command}\n\n')
@@ -29,7 +30,7 @@ def report(command):
 		pass
 	report_file.write('--------------------------------\n\n')
 
-
+#Iterates through various different tools
 report(f'file {file_name}')
 report(f'exiftool {file_name}')
 report(f'binwalk {file_name}')
@@ -63,5 +64,6 @@ report(f'stegoveritas {file_name} -o output/stegoveritas_output')
 
 report_file.close()
 
+#Searches for keyword flag and ctf in report file before stopping
 print("\n\nQuick Analysis\n")
 print(regEx('strings report_file.txt | grep -i \'flag\|ctf\''))
