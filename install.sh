@@ -1,6 +1,6 @@
 #!/bin/bash
 
-
+set -e
 
 # Download
 apt-get install -y cmake \
