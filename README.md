@@ -1,6 +1,6 @@
 # stego-obliterate
 
-stego-obliterate is a simple python file that checks for many different steganography techniques.
+stego-obliterate is a simple python tool that checks for many different steganography techniques.
 
 ## Requirements
 Exiftool\
